@@ -1,0 +1,16 @@
+.container {
+    margin: 10;
+    align-items: center;
+}
+
+.googleAuth {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    object-fit: cover;
+}
