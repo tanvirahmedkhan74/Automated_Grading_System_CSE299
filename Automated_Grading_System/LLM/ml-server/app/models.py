@@ -16,7 +16,7 @@ class Assessment:
         self.AutoModel = AutoModel
         self.task = task
 
-        # self.save_model()
+        self.save_model()
 
         # set the model and tokenizer
         quantization_config = BitsAndBytesConfig(load_in_8bit=True)
